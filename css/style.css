@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "微软雅黑",sans-serif;
+
+}
+#main{
+    width: 320px;
+    height: 568px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: url("../image/background_1.png");
+    position: relative;
+}
+#start{
+    width: inherit;
+    height: inherit;
+    display: none;
+    background:url("../image/开始背景.png");
+}
+#start span{
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    width: 200px;
+    height: 40px;
+    left: 60px;
+    /*background-color: #d7ddde;*/
+    border: 1px black solid;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
